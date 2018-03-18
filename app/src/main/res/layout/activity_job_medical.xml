@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codept.guide.job_medical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job's For Medical"/>
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Medical Assistant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:onClick="medical_job_detail" />
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Nursing Assistant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="medical_job_detail"/>
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Home Health aide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="medical_job_detail"/>
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Licensed Practical Nurse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="medical_job_detail"/>
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Physician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="medical_job_detail"/>
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Therapist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="medical_job_detail"/>
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Pharmacy technician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="medical_job_detail"/>
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Diagnostic Medical Sonographer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="medical_job_detail"/>
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Clinical Lab Technician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="medical_job_detail"/>
+            <TextView
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Dental Assistant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="medical_job_detail"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

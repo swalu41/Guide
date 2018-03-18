@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.codept.guide.job_engineering">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:onClick="l2"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job's for engineering"/>
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20sp"
+                android:textSize="20sp"
+                android:text="PHP developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Technical Suppor Specialist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Software developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Software Manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="System Architect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Sales Manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Customer care Executive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Marketing Manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Ux Designer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Noc Support Engineer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Export Marketing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:onClick="l2"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="Business Consultant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
